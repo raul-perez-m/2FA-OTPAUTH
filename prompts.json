@@ -1,0 +1,31 @@
+{
+  "issuer": {
+    "type":"input",
+    "name": "issuer",
+    "message": "Introduce the issuer of the TOTP",
+    "default": "ACME"
+  },
+  "label": {
+    "type":"input",
+    "name": "label",
+    "message": "Introduce the label of the TOTP",
+    "default": "AzureDiamond"
+  },
+  "algorithm": {
+    "type":"list",
+    "name": "algorithm",
+    "message": "Select the algorithm of the TOTP",
+    "choices": ["SHA1", "SHA256", "SHA512"]
+  },
+  "secret": {
+    "type":"input",
+    "name": "secret",
+    "message": "Introduce the secret of the TOPT",
+    "default": "NB2W45DFOIZA"
+  },
+  "token": {
+    "type":"input",
+    "name": "token",
+    "message": "Introduce the token"
+  }
+}
